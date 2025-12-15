@@ -2,6 +2,8 @@
 
 # KVcache优化-QAQ（**Quality Adaptive Quantization**）
 
+ arXiv链接：[arXiv:2403.04643](https://arxiv.org/abs/2403.04643)
+
 ## 简介
 
 **QAQ**是一种通过动态调整KV量化精度，极致压缩KVcache的方法
