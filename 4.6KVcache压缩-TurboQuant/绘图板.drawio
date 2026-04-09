@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="Nal65PMc1j0xHWAFQUNH">
+    <mxGraphModel dx="595" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LuOphECt3nw2UZDvIfDt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="随机翻转+阿达马变换" vertex="1">
+          <mxGeometry height="20" width="120" x="55" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-6" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LuOphECt3nw2UZDvIfDt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="初始向量" vertex="1">
+          <mxGeometry height="20" width="60" x="85" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="$$分量取值符合\beta分布的向量$$" vertex="1">
+          <mxGeometry height="20" width="150" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-8" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.506;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" target="LuOphECt3nw2UZDvIfDt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进行类似QLoRa的非均匀量化" vertex="1">
+          <mxGeometry height="20" width="170" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-10" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.122;entryDx=0;entryDy=0;entryPerimeter=0;" target="LuOphECt3nw2UZDvIfDt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-11" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LuOphECt3nw2UZDvIfDt-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="180" as="sourcePoint" />
+            <mxPoint x="115" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="量化后的向量" vertex="1">
+          <mxGeometry height="20" width="90" x="70" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="量化后的向量" vertex="1">
+          <mxGeometry height="20" width="90" x="417" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="$$利用\beta分布特点，和残差符号，进行一定的修复$$" vertex="1">
+          <mxGeometry height="20" width="261" x="330" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="存储其残差符号" vertex="1">
+          <mxGeometry height="20" width="90" x="190" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-16" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="LuOphECt3nw2UZDvIfDt-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="170" as="sourcePoint" />
+            <mxPoint x="230" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-17" edge="1" parent="1" source="LuOphECt3nw2UZDvIfDt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427" y="190" as="sourcePoint" />
+            <mxPoint x="462" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="反量化后的向量" vertex="1">
+          <mxGeometry height="20" width="90" x="415.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LuOphECt3nw2UZDvIfDt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.0099999999999" y="90" as="sourcePoint" />
+            <mxPoint x="460.51" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="量化流程" vertex="1">
+          <mxGeometry height="20" width="90" x="85" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuOphECt3nw2UZDvIfDt-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="反量化流程" vertex="1">
+          <mxGeometry height="20" width="90" x="417" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
